@@ -1,0 +1,31 @@
+body {
+    background-color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    background-color: yellow;
+    margin: 0;
+}
+
+p {
+    background-color: yellow;
+    margin: 0;
+}
+
+ul {
+    background-color: lightblue;
+}
+
+li {
+    background-color: green;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
