@@ -1,0 +1,116 @@
+html, body {
+    margin: 0px;
+}
+
+body {
+    background-color: tomato;
+}
+
+header {
+    background-color: lightseagreen;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between
+}
+
+header h1 {
+    /* width: 20%; */
+    text-align: center;
+    margin-left: 10px;
+}
+
+nav {
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: magenta;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+article {
+    background-color: yellow;
+    padding: 16px;
+}
+
+.article-1 {
+    width: 30%;
+}
+
+.article-2 {
+    width: 70%;
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#paragraph1 {
+    font-family: fantasy;
+}
+
+.color-green {
+    color: green;
+}
+
+ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+ol li {
+    list-style: none;
+    display: block;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div h2 {
+    width: 50%;
+}
+
+.loads-of-padding {
+    padding: 20px;
+}
+
+.car-img-link {
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: inherit;
+}
+
+.car-img {
+    width: 100%;
+}
+
+footer {
+    background-color: pink;
+}
+
+footer h3 {
+    background-color: purple;
+}
+
+footer span {
+    background-color: lightskyblue;
+    text-align: center;
+    width: 300px;
+}
